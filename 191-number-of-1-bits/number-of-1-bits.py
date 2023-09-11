@@ -5,7 +5,7 @@ class Solution:
         while n != 0:
             bit = n&1
             count += bit
-            n = n//2
+            n = n >> 1
 
         return count
         
